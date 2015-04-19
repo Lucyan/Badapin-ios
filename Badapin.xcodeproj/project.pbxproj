@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7B623DC1AE370130050D5FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B623DB1AE370130050D5FD /* AppDelegate.swift */; };
+		A7B623DF1AE370130050D5FD /* Badapin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7B623DD1AE370130050D5FD /* Badapin.xcdatamodeld */; };
+		A7B623E11AE370130050D5FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B623E01AE370130050D5FD /* ViewController.swift */; };
+		A7B623E41AE370130050D5FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7B623E21AE370130050D5FD /* Main.storyboard */; };
+		A7B623E61AE370130050D5FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7B623E51AE370130050D5FD /* Images.xcassets */; };
+		A7B623E91AE370130050D5FD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7B623E71AE370130050D5FD /* LaunchScreen.xib */; };
+		A7B623F51AE370130050D5FD /* BadapinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B623F41AE370130050D5FD /* BadapinTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7B623EF1AE370130050D5FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7B623CE1AE370120050D5FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7B623D51AE370120050D5FD;
+			remoteInfo = Badapin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A7B623D61AE370130050D5FD /* Badapin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Badapin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7B623DA1AE370130050D5FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7B623DB1AE370130050D5FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7B623DE1AE370130050D5FD /* Badapin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Badapin.xcdatamodel; sourceTree = "<group>"; };
+		A7B623E01AE370130050D5FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A7B623E31AE370130050D5FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7B623E51AE370130050D5FD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A7B623E81AE370130050D5FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A7B623EE1AE370130050D5FD /* BadapinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BadapinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7B623F31AE370130050D5FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7B623F41AE370130050D5FD /* BadapinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadapinTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7B623D31AE370120050D5FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7B623EB1AE370130050D5FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7B623CD1AE370120050D5FD = {
+			isa = PBXGroup;
+			children = (
+				A7B623D81AE370130050D5FD /* Badapin */,
+				A7B623F11AE370130050D5FD /* BadapinTests */,
+				A7B623D71AE370130050D5FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7B623D71AE370130050D5FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7B623D61AE370130050D5FD /* Badapin.app */,
+				A7B623EE1AE370130050D5FD /* BadapinTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7B623D81AE370130050D5FD /* Badapin */ = {
+			isa = PBXGroup;
+			children = (
+				A7B623DB1AE370130050D5FD /* AppDelegate.swift */,
+				A7B623E01AE370130050D5FD /* ViewController.swift */,
+				A7B623E21AE370130050D5FD /* Main.storyboard */,
+				A7B623E51AE370130050D5FD /* Images.xcassets */,
+				A7B623E71AE370130050D5FD /* LaunchScreen.xib */,
+				A7B623DD1AE370130050D5FD /* Badapin.xcdatamodeld */,
+				A7B623D91AE370130050D5FD /* Supporting Files */,
+			);
+			path = Badapin;
+			sourceTree = "<group>";
+		};
+		A7B623D91AE370130050D5FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7B623DA1AE370130050D5FD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7B623F11AE370130050D5FD /* BadapinTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7B623F41AE370130050D5FD /* BadapinTests.swift */,
+				A7B623F21AE370130050D5FD /* Supporting Files */,
+			);
+			path = BadapinTests;
+			sourceTree = "<group>";
+		};
+		A7B623F21AE370130050D5FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7B623F31AE370130050D5FD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7B623D51AE370120050D5FD /* Badapin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7B623F81AE370130050D5FD /* Build configuration list for PBXNativeTarget "Badapin" */;
+			buildPhases = (
+				A7B623D21AE370120050D5FD /* Sources */,
+				A7B623D31AE370120050D5FD /* Frameworks */,
+				A7B623D41AE370120050D5FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Badapin;
+			productName = Badapin;
+			productReference = A7B623D61AE370130050D5FD /* Badapin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7B623ED1AE370130050D5FD /* BadapinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7B623FB1AE370130050D5FD /* Build configuration list for PBXNativeTarget "BadapinTests" */;
+			buildPhases = (
+				A7B623EA1AE370130050D5FD /* Sources */,
+				A7B623EB1AE370130050D5FD /* Frameworks */,
+				A7B623EC1AE370130050D5FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7B623F01AE370130050D5FD /* PBXTargetDependency */,
+			);
+			name = BadapinTests;
+			productName = BadapinTests;
+			productReference = A7B623EE1AE370130050D5FD /* BadapinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7B623CE1AE370120050D5FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Badapin;
+				TargetAttributes = {
+					A7B623D51AE370120050D5FD = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					A7B623ED1AE370130050D5FD = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = A7B623D51AE370120050D5FD;
+					};
+				};
+			};
+			buildConfigurationList = A7B623D11AE370120050D5FD /* Build configuration list for PBXProject "Badapin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7B623CD1AE370120050D5FD;
+			productRefGroup = A7B623D71AE370130050D5FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7B623D51AE370120050D5FD /* Badapin */,
+				A7B623ED1AE370130050D5FD /* BadapinTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7B623D41AE370120050D5FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B623E41AE370130050D5FD /* Main.storyboard in Resources */,
+				A7B623E91AE370130050D5FD /* LaunchScreen.xib in Resources */,
+				A7B623E61AE370130050D5FD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7B623EC1AE370130050D5FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7B623D21AE370120050D5FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B623E11AE370130050D5FD /* ViewController.swift in Sources */,
+				A7B623DC1AE370130050D5FD /* AppDelegate.swift in Sources */,
+				A7B623DF1AE370130050D5FD /* Badapin.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7B623EA1AE370130050D5FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B623F51AE370130050D5FD /* BadapinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7B623F01AE370130050D5FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7B623D51AE370120050D5FD /* Badapin */;
+			targetProxy = A7B623EF1AE370130050D5FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7B623E21AE370130050D5FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7B623E31AE370130050D5FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7B623E71AE370130050D5FD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7B623E81AE370130050D5FD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7B623F61AE370130050D5FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7B623F71AE370130050D5FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7B623F91AE370130050D5FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Badapin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A7B623FA1AE370130050D5FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Badapin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A7B623FC1AE370130050D5FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BadapinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Badapin.app/Badapin";
+			};
+			name = Debug;
+		};
+		A7B623FD1AE370130050D5FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BadapinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Badapin.app/Badapin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7B623D11AE370120050D5FD /* Build configuration list for PBXProject "Badapin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7B623F61AE370130050D5FD /* Debug */,
+				A7B623F71AE370130050D5FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7B623F81AE370130050D5FD /* Build configuration list for PBXNativeTarget "Badapin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7B623F91AE370130050D5FD /* Debug */,
+				A7B623FA1AE370130050D5FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A7B623FB1AE370130050D5FD /* Build configuration list for PBXNativeTarget "BadapinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7B623FC1AE370130050D5FD /* Debug */,
+				A7B623FD1AE370130050D5FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A7B623DD1AE370130050D5FD /* Badapin.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A7B623DE1AE370130050D5FD /* Badapin.xcdatamodel */,
+			);
+			currentVersion = A7B623DE1AE370130050D5FD /* Badapin.xcdatamodel */;
+			path = Badapin.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A7B623CE1AE370120050D5FD /* Project object */;
+}
