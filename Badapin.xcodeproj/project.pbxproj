@@ -7,13 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		567C78AA28FBE70B3EB417CE /* Pods_Badapin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4856DA548E9EF3606782ED /* Pods_Badapin.framework */; };
+		A702B9461B70740C00D0D52F /* FotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A702B9451B70740C00D0D52F /* FotoController.swift */; };
+		A70B5A291B64846800367CE2 /* PerfilController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70B5A281B64846800367CE2 /* PerfilController.swift */; };
+		A70B5A2B1B6494A900367CE2 /* ApiClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70B5A2A1B6494A800367CE2 /* ApiClass.swift */; };
+		A70B5A2F1B6499B100367CE2 /* EditarPerfilController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70B5A2E1B6499B100367CE2 /* EditarPerfilController.swift */; };
+		A74EBD361B82E75800D0D584 /* SearchUserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74EBD351B82E75800D0D584 /* SearchUserController.swift */; };
+		A74EBD391B82E79800D0D584 /* UserListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74EBD381B82E79800D0D584 /* UserListCell.swift */; };
+		A74EBD3B1B82E87500D0D584 /* UserList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74EBD3A1B82E87500D0D584 /* UserList.swift */; };
 		A7B623DC1AE370130050D5FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B623DB1AE370130050D5FD /* AppDelegate.swift */; };
 		A7B623DF1AE370130050D5FD /* Badapin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7B623DD1AE370130050D5FD /* Badapin.xcdatamodeld */; };
-		A7B623E11AE370130050D5FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B623E01AE370130050D5FD /* ViewController.swift */; };
 		A7B623E41AE370130050D5FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7B623E21AE370130050D5FD /* Main.storyboard */; };
 		A7B623E61AE370130050D5FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7B623E51AE370130050D5FD /* Images.xcassets */; };
 		A7B623E91AE370130050D5FD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7B623E71AE370130050D5FD /* LaunchScreen.xib */; };
 		A7B623F51AE370130050D5FD /* BadapinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B623F41AE370130050D5FD /* BadapinTests.swift */; };
+		A7B624011AE378600050D5FD /* login_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = A7B624001AE378600050D5FD /* login_bg.png */; };
+		A7B624041AE38C200050D5FD /* login_arrow_up.png in Resources */ = {isa = PBXBuildFile; fileRef = A7B624031AE38C200050D5FD /* login_arrow_up.png */; };
+		A7B624061AE38FCB0050D5FD /* login_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A7B624051AE38FCB0050D5FD /* login_logo.png */; };
+		A7B624081AE3AA030050D5FD /* GlobalFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B624071AE3AA030050D5FD /* GlobalFunctions.swift */; };
+		A7B8DF041BC22DE5003396CC /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B8DF031BC22DE5003396CC /* SwiftyJSON.swift */; };
+		A7BC02E31AE72FF80020BE54 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BC02E21AE72FF80020BE54 /* User.swift */; };
+		A7BC02E51AE73F7E0020BE54 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BC02E41AE73F7D0020BE54 /* LoginController.swift */; };
+		A7BC02E71AE7535D0020BE54 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BC02E61AE7535D0020BE54 /* MainTabBarController.swift */; };
+		A7BC02EA1AE753C80020BE54 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BC02E91AE753C80020BE54 /* HomeController.swift */; };
+		A7BEC6BC1B81373C001429F5 /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BEC6BB1B81373C001429F5 /* Stream.swift */; };
+		A7BEC6BE1B814E3B001429F5 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BEC6BD1B814E3B001429F5 /* CustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +45,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A702B9451B70740C00D0D52F /* FotoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FotoController.swift; sourceTree = "<group>"; };
+		A70B5A281B64846800367CE2 /* PerfilController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerfilController.swift; sourceTree = "<group>"; };
+		A70B5A2A1B6494A800367CE2 /* ApiClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiClass.swift; sourceTree = "<group>"; };
+		A70B5A2E1B6499B100367CE2 /* EditarPerfilController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditarPerfilController.swift; sourceTree = "<group>"; };
+		A74EBD351B82E75800D0D584 /* SearchUserController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchUserController.swift; sourceTree = "<group>"; };
+		A74EBD381B82E79800D0D584 /* UserListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListCell.swift; sourceTree = "<group>"; };
+		A74EBD3A1B82E87500D0D584 /* UserList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserList.swift; sourceTree = "<group>"; };
+		A76EADE21BE085040064A603 /* ObjectiveC_Bridging_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectiveC_Bridging_Header.h; sourceTree = "<group>"; };
 		A7B623D61AE370130050D5FD /* Badapin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Badapin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7B623DA1AE370130050D5FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7B623DB1AE370130050D5FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7B623DE1AE370130050D5FD /* Badapin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Badapin.xcdatamodel; sourceTree = "<group>"; };
-		A7B623E01AE370130050D5FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A7B623E31AE370130050D5FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A7B623E51AE370130050D5FD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A7B623E81AE370130050D5FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A7B623EE1AE370130050D5FD /* BadapinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BadapinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7B623F31AE370130050D5FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7B623F41AE370130050D5FD /* BadapinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadapinTests.swift; sourceTree = "<group>"; };
+		A7B624001AE378600050D5FD /* login_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_bg.png; sourceTree = "<group>"; };
+		A7B624031AE38C200050D5FD /* login_arrow_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_arrow_up.png; sourceTree = "<group>"; };
+		A7B624051AE38FCB0050D5FD /* login_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_logo.png; sourceTree = "<group>"; };
+		A7B624071AE3AA030050D5FD /* GlobalFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalFunctions.swift; sourceTree = "<group>"; };
+		A7B8DF031BC22DE5003396CC /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		A7BC02E21AE72FF80020BE54 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A7BC02E41AE73F7D0020BE54 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		A7BC02E61AE7535D0020BE54 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		A7BC02E91AE753C80020BE54 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		A7BEC6BB1B81373C001429F5 /* Stream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stream.swift; sourceTree = "<group>"; };
+		A7BEC6BD1B814E3B001429F5 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		CD07846A3CBBB50D3A87F666 /* Pods-Badapin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Badapin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Badapin/Pods-Badapin.release.xcconfig"; sourceTree = "<group>"; };
+		EB4856DA548E9EF3606782ED /* Pods_Badapin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Badapin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1729E7D7C405134CACC15DD /* Pods-Badapin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Badapin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Badapin/Pods-Badapin.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				567C78AA28FBE70B3EB417CE /* Pods_Badapin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,12 +98,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A61942C5B252F04DFFE9D9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1729E7D7C405134CACC15DD /* Pods-Badapin.debug.xcconfig */,
+				CD07846A3CBBB50D3A87F666 /* Pods-Badapin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A74EBD371B82E76E00D0D584 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A7BEC6BD1B814E3B001429F5 /* CustomCell.swift */,
+				A74EBD381B82E79800D0D584 /* UserListCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
 		A7B623CD1AE370120050D5FD = {
 			isa = PBXGroup;
 			children = (
+				A7B623FE1AE378060050D5FD /* Assets */,
 				A7B623D81AE370130050D5FD /* Badapin */,
 				A7B623F11AE370130050D5FD /* BadapinTests */,
 				A7B623D71AE370130050D5FD /* Products */,
+				3A61942C5B252F04DFFE9D9C /* Pods */,
+				D3C6D1276099BDA489DCFDD0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,8 +140,11 @@
 		A7B623D81AE370130050D5FD /* Badapin */ = {
 			isa = PBXGroup;
 			children = (
+				A7BC02DF1AE728C10020BE54 /* Models */,
+				A7BC02DE1AE728B60020BE54 /* Library */,
+				A7BC02DD1AE728A20020BE54 /* Controllers */,
+				A74EBD371B82E76E00D0D584 /* Cells */,
 				A7B623DB1AE370130050D5FD /* AppDelegate.swift */,
-				A7B623E01AE370130050D5FD /* ViewController.swift */,
 				A7B623E21AE370130050D5FD /* Main.storyboard */,
 				A7B623E51AE370130050D5FD /* Images.xcassets */,
 				A7B623E71AE370130050D5FD /* LaunchScreen.xib */,
@@ -94,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				A7B623DA1AE370130050D5FD /* Info.plist */,
+				A76EADE21BE085040064A603 /* ObjectiveC_Bridging_Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -115,6 +180,74 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A7B623FE1AE378060050D5FD /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A7B623FF1AE378410050D5FD /* Images */,
+			);
+			path = Assets;
+			sourceTree = SOURCE_ROOT;
+		};
+		A7B623FF1AE378410050D5FD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A7B624021AE38BF80050D5FD /* Login */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		A7B624021AE38BF80050D5FD /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A7B624051AE38FCB0050D5FD /* login_logo.png */,
+				A7B624031AE38C200050D5FD /* login_arrow_up.png */,
+				A7B624001AE378600050D5FD /* login_bg.png */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		A7BC02DD1AE728A20020BE54 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A7BC02E41AE73F7D0020BE54 /* LoginController.swift */,
+				A7BC02E61AE7535D0020BE54 /* MainTabBarController.swift */,
+				A7BC02E91AE753C80020BE54 /* HomeController.swift */,
+				A702B9451B70740C00D0D52F /* FotoController.swift */,
+				A70B5A281B64846800367CE2 /* PerfilController.swift */,
+				A70B5A2E1B6499B100367CE2 /* EditarPerfilController.swift */,
+				A74EBD351B82E75800D0D584 /* SearchUserController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A7BC02DE1AE728B60020BE54 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				A7B624071AE3AA030050D5FD /* GlobalFunctions.swift */,
+				A7B8DF031BC22DE5003396CC /* SwiftyJSON.swift */,
+				A70B5A2A1B6494A800367CE2 /* ApiClass.swift */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		A7BC02DF1AE728C10020BE54 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A7BC02E21AE72FF80020BE54 /* User.swift */,
+				A7BEC6BB1B81373C001429F5 /* Stream.swift */,
+				A74EBD3A1B82E87500D0D584 /* UserList.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		D3C6D1276099BDA489DCFDD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB4856DA548E9EF3606782ED /* Pods_Badapin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,9 +255,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A7B623F81AE370130050D5FD /* Build configuration list for PBXNativeTarget "Badapin" */;
 			buildPhases = (
+				148D9C6932844581AC4076C8 /* Check Pods Manifest.lock */,
 				A7B623D21AE370120050D5FD /* Sources */,
 				A7B623D31AE370120050D5FD /* Frameworks */,
 				A7B623D41AE370120050D5FD /* Resources */,
+				2CB7E124FDD4B5C21F26A9D8 /* Embed Pods Frameworks */,
+				A787208613CA61DF2024B6EA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -159,11 +295,13 @@
 		A7B623CE1AE370120050D5FD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Badapin;
 				TargetAttributes = {
 					A7B623D51AE370120050D5FD = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = KUEN28W56K;
 					};
 					A7B623ED1AE370130050D5FD = {
 						CreatedOnToolsVersion = 6.3;
@@ -195,8 +333,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7B624041AE38C200050D5FD /* login_arrow_up.png in Resources */,
+				A7B624011AE378600050D5FD /* login_bg.png in Resources */,
 				A7B623E41AE370130050D5FD /* Main.storyboard in Resources */,
 				A7B623E91AE370130050D5FD /* LaunchScreen.xib in Resources */,
+				A7B624061AE38FCB0050D5FD /* login_logo.png in Resources */,
 				A7B623E61AE370130050D5FD /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,14 +351,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		148D9C6932844581AC4076C8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2CB7E124FDD4B5C21F26A9D8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Badapin/Pods-Badapin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A787208613CA61DF2024B6EA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Badapin/Pods-Badapin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A7B623D21AE370120050D5FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7B623E11AE370130050D5FD /* ViewController.swift in Sources */,
 				A7B623DC1AE370130050D5FD /* AppDelegate.swift in Sources */,
+				A74EBD3B1B82E87500D0D584 /* UserList.swift in Sources */,
+				A7BC02E31AE72FF80020BE54 /* User.swift in Sources */,
+				A7B624081AE3AA030050D5FD /* GlobalFunctions.swift in Sources */,
+				A70B5A2B1B6494A900367CE2 /* ApiClass.swift in Sources */,
+				A7BC02E71AE7535D0020BE54 /* MainTabBarController.swift in Sources */,
+				A7BC02EA1AE753C80020BE54 /* HomeController.swift in Sources */,
+				A70B5A291B64846800367CE2 /* PerfilController.swift in Sources */,
+				A702B9461B70740C00D0D52F /* FotoController.swift in Sources */,
+				A74EBD391B82E79800D0D584 /* UserListCell.swift in Sources */,
+				A74EBD361B82E75800D0D584 /* SearchUserController.swift in Sources */,
+				A7BEC6BC1B81373C001429F5 /* Stream.swift in Sources */,
 				A7B623DF1AE370130050D5FD /* Badapin.xcdatamodeld in Sources */,
+				A70B5A2F1B6499B100367CE2 /* EditarPerfilController.swift in Sources */,
+				A7B8DF041BC22DE5003396CC /* SwiftyJSON.swift in Sources */,
+				A7BEC6BE1B814E3B001429F5 /* CustomCell.swift in Sources */,
+				A7BC02E51AE73F7E0020BE54 /* LoginController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +483,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -342,21 +546,57 @@
 		};
 		A7B623F91AE370130050D5FD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1729E7D7C405134CACC15DD /* Pods-Badapin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Badapin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+					"-framework",
+					"\"AWSCognito\"",
+					"-framework",
+					"\"AWSCore\"",
+					"-framework",
+					"\"AWSS3\"",
+					"-framework",
+					"\"imglyKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cl.badapin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = Badapin/ObjectiveC_Bridging_Header.h;
 			};
 			name = Debug;
 		};
 		A7B623FA1AE370130050D5FD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD07846A3CBBB50D3A87F666 /* Pods-Badapin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Badapin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+					"-framework",
+					"\"AWSCognito\"",
+					"-framework",
+					"\"AWSCore\"",
+					"-framework",
+					"\"AWSS3\"",
+					"-framework",
+					"\"imglyKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cl.badapin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = Badapin/ObjectiveC_Bridging_Header.h;
 			};
 			name = Release;
 		};
@@ -374,6 +614,7 @@
 				);
 				INFOPLIST_FILE = BadapinTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cl.badapin.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Badapin.app/Badapin";
 			};
@@ -389,6 +630,7 @@
 				);
 				INFOPLIST_FILE = BadapinTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cl.badapin.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Badapin.app/Badapin";
 			};
@@ -413,6 +655,7 @@
 				A7B623FA1AE370130050D5FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7B623FB1AE370130050D5FD /* Build configuration list for PBXNativeTarget "BadapinTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +664,7 @@
 				A7B623FD1AE370130050D5FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
